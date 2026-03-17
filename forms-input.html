@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <h2>First name</h2>
+    <form>
+        <input 
+        name="First-name" 
+        placeholder="Enter first name" 
+        minlength="3" 
+        required>
+    </form>
+    <h2>Register</h2>
+    <form>
+        <input type="email" 
+        placeholder="Email" 
+        name="email" 
+        required>
+    </form>
+    <form>
+        <input 
+        type="password" 
+        placeholder="Password" 
+        required>
+    </form>
+    <form>
+        <input 
+        type="checkbox" 
+        name="tos-agree"> I agree to the terms of service
+        <!-- <input type="submit" value="Go!"> -->
+         <button type="submit"><i>Submit form</i></button>
+        <!-- Note that the "button" element automatically has a type of "submit" -->
+        <!-- Use type="button" to change the behavior of the "button" element away from "submit". -->
+         <!-- Good practice to use type="submit" when using a submit button anyway -->
+    </form>
+    <h2>Radio buttons</h2>
+    <form>
+        <input type="radio" name="drink-choice" value="Water"> Water <br>
+        <input type="radio" name="drink-choice" value="Milk"> Milk <br>
+        <input type="radio" name="drink-choice" value="Juice"> Juice <br>
+    </form>
+    <h2>Other input types</h2>
+    <form>
+        Color <input type="color" name="color"><br>
+        Date <input type="date" name="birthday"><br>
+        Range <input type="range" min="1" max="10"><br>
+    </form>
+</body>
+</html>
