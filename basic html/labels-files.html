@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labels</title>
+</head>
+<body>
+    <form>
+        <!-- Basic labeling with nesting-->
+        <label>
+            Enter first name:
+            <input name="First-name" placeholder="Enter first name" minlength="3">
+        </label>
+    </form>
+    <br>
+    <!-- Using labels with "id" -->
+    <form>
+        <label for="email">Enter email:</label>
+        <input type="email" placeholder="Email" name="email" id="email">
+    </form>
+    <br>
+    <!-- File uploads -->
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="my-file">
+        <button type="submit">Upload file</button>
+    </form>
+</body>
+</html>
