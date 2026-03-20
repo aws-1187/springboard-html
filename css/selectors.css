@@ -1,0 +1,52 @@
+/* Use * to select everything */
+
+/* Pseudo class */
+/* Makes text orange when hovering over id 'main-paragraph' */
+#main-paragraph:hover {
+    color: orange
+}
+
+/* Pseudo elements :: */
+.poem::first-letter {
+    font-size: 50;
+}
+
+/* Using id to select */
+#main-paragraph {
+    font-size: 150px;
+    color: cyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Using class to select */
+.poem {
+    width: 200px;
+    color: palevioletred;
+}
+
+/* Descenant selector */
+/* Target all paragraph (or any other elements) tags inside of the body */
+
+body p {
+    text-align: center;
+}
+
+/* Adjacent selector */
+/* Target only the paragraph tags that come after h2 tags. */
+/* They must have the same parent element as well. */
+
+h2 + p {
+    color: green
+}
+
+/* Direct children selector */
+/* Target only the h2 tags that are direct children of section tags */
+section > h2 {
+    color: green
+}
+
+/* Join multiple selectors */
+/* Use commas to separate selectors */
+/* h2, .poem, #main-paragraph {
+    color: green
+} */
