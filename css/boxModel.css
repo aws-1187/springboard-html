@@ -16,5 +16,13 @@ img {
     border-color: pink;
 }
 
+section {
+    width: 50%;
+    border: 3px solid violet;
+    padding: 5px;
+}
+
 /* Use border shorthand
 border: 10px inset pink; */
+
+/* Can set padding to 0 or input 3 values for padding */
