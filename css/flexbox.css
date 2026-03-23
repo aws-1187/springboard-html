@@ -1,0 +1,18 @@
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: lightcyan;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav a {
+    margin: 1em;
+}
